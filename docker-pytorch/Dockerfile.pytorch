@@ -1,0 +1,16 @@
+# base image
+FROM continuumio/anaconda3:latest
+# includes flask, pillow, pandas, numpy, matplotlib
+
+WORKDIR /app
+
+COPY . .
+
+EXPOSE 8888
+
+RUN pip --no-cache-dir install \
+	flasgger \
+	torch \
+	torchvision
+
+CMD python api-pytorch.py
