@@ -1,6 +1,6 @@
 # clarius-tha-1
 
-Image segmentation ML model deployed as a RESTful API within a Docker container.
+Image segmentation ML model deployed as a RESTful API and packaged in a Docker container.
 
 To build the API I used Flask and Flasgger with SwaggerUI. Flasgger allow us to automatically generate an interactive API documentation where one can try out API calls.
 
