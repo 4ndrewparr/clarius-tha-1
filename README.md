@@ -20,4 +20,4 @@ $ docker container run -d --rm -p 8888:8888 <image-name>
     
 3. Go to http://localhost:8888/apidocs/ to interact with the API. You can test POST calls uploading your own images.
 
-To see the outputted segmented image you can download the Response body (it downloads as a .txt file), and then pass it to the function *response2img* that you can find in *utils.py*.
+To visualize the outputted segmented image you can download the Response body (it downloads as a .txt file), and then pass it to the function *response2img* that you can find in *utils.py*.
