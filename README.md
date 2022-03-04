@@ -21,7 +21,7 @@ $ docker image build -f Dockerfile.pytorch -t <image-name> .
 $ docker container run -d --rm -p 8888:8888 <image-name>
 ```
     
-3. Finally, go to http://localhost:8888/apidocs/ to interact with the API. You can test POST calls with the sample images in this repository or uploading your own images.
+3. Go to http://localhost:8888/apidocs/ to interact with the API. You can test POST calls with the sample images in this repository or uploading your own images.
 
 
 https://user-images.githubusercontent.com/49324844/156843215-c124078f-6ee3-4a9a-bbd1-c6550046f280.mp4
