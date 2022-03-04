@@ -11,7 +11,7 @@ The semantic segmentation model deployed is a Fully-Convolutional Network model 
 
 **Running the API from a Docker container:**
 
-1. From the docker-pytorch folder, build the docker container image with:
+1. From the *api* folder, build the docker container image with:
 ```python
 $ docker image build -f Dockerfile.pytorch -t <image-name> .
 ```
