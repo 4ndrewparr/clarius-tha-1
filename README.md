@@ -5,7 +5,7 @@
 
 To build the API I used Flask and Flasgger with SwaggerUI. Flasgger allows us to automatically generate an interactive API documentation where one can try out API calls.
 
-The semantic segmentation model deployed is a Fully-Convolutional Network model with a ResNet-50 backbone, pre-trained on the COCO train2017 dataset and containing the same classes as Pascal VOC.
+The semantic segmentation model deployed is a Fully-Convolutional Network model with a ResNet-50 backbone, pre-trained on the COCO train2017 dataset and containing the same classes as Pascal VOC (20).
 
 ---
 
